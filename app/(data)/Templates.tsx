@@ -347,7 +347,24 @@ export default  [
            
         ]
     },
-
+    {
+        name: 'Linkedin Post Generator',
+        desc: 'An AI tool that serves as your personal blog post writer, generating catchy and viral-worthy post in your chosen language.',
+        icon: 'https://cdn-icons-png.flaticon.com/128/3536/3536505.png',
+        category: 'blog',
+       
+        slug: 'linkedin-post-generator',
+        aiPrompt: 'Generate a professional linkedin post depends on a given keywords and give output in rich text editor format',
+        form: [
+            {
+                label: 'Enter Keywords for your post',
+                field: 'input',
+                name: 'keywords',
+                required:true
+            },
+           
+        ]
+    },
 
 
 ]
