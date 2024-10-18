@@ -348,21 +348,24 @@ export default  [
         ]
     },
     {
-        name: 'Linkedin Post Generator',
-        desc: 'An AI tool that serves as your personal blog post writer, generating catchy and viral-worthy post in your chosen language.',
-        icon: 'https://cdn-icons-png.flaticon.com/128/3536/3536505.png',
-        category: 'blog',
-       
-        slug: 'linkedin-post-generator',
-        aiPrompt: 'Generate a professional linkedin post depends on a given keywords and give output in rich text editor format',
+        name: 'linkedin Post Generator',
+        desc: 'An AI tool that serves as your personal Linkedin post writer, generating catchy and viral-worthy post chosen language.',
+        category: 'linkedin',
+        icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
+        slug: 'linkedin-content-generation',
+        aiPrompt: 'Generate motivating exaggerated linkedin post based on topic and outline in rich text editor format',
         form: [
             {
-                label: 'Enter Keywords for your post',
+                label: 'Enter linkedin post topic',
                 field: 'input',
-                name: 'keywords',
+                name: 'topic',
                 required:true
             },
-           
+            {
+                label: 'Enter linkedin post Outline here',
+                field: 'textarea',
+                name: 'outline'
+            }
         ]
     },
 
