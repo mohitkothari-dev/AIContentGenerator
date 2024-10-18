@@ -351,7 +351,7 @@ export default  [
         name: 'linkedin Post Generator',
         desc: 'An AI tool that serves as your personal Linkedin post writer, generating catchy and viral-worthy post chosen language.',
         category: 'linkedin',
-        icon: 'https://cdn-icons-png.flaticon.com/128/4905/4905454.png',
+        icon: 'https://cdn-icons-png.flaticon.com/128/3536/3536505.png',
         slug: 'linkedin-content-generation',
         aiPrompt: 'Generate motivating exaggerated linkedin post based on topic and outline in rich text editor format',
         form: [
